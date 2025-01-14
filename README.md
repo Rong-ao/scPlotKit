@@ -9,9 +9,9 @@ Thanks for my dummy friend, Jiayi Song in Xiamen University, for his endless req
 This kit now contains one visualization function: `OrthoDotPlot()`, which is constrcuted based on `Seurat::DotPlot()`. This function provides a direct way to draw a gene expression level DotPlot with two classifications (metadata columns) of cells in seurat object, showing each as an axis of DotPlot and corresponding gene expression pattern in orthogonal cell subgroup. It also supports to draw several genes in batch and generate combined plot with separated scale or not.
 
 **Install**: 
-`devtools::install_github("Rong-ao/scPlotKit/")`
+`devtools::install_github("Rong-ao/scPlotKit")`
 or
-`remotes::install_github("Rong-ao/scPlotKit/")`
+`remotes::install_github("Rong-ao/scPlotKit")`
 
 **`OrthoDotPlot()` Usage example:**
 
@@ -20,8 +20,12 @@ library(scPlotKit)
 libaray(Seurat)
 library(SeuratData)
 ifnb <- LoadData("ifnb")
-p1 <- OrthoDotPlot(ifnb, features = c("CD4", "CD86", "CD96"), group.by.x = "stim", group.by.y = "seurat_annotations", legend = T, keep.scale = 'feature')
-p2 <- OrthoDotPlot(ifnb, features = c("CD4", "CD86", "CD96"), group.by.x = "stim", group.by.y = "seurat_annotations", legend = T, keep.scale = 'all')
+p1 <- OrthoDotPlot(ifnb, features = c("CD4", "CD86", "CD96"),
+                   group.by.x = "stim", group.by.y = "seurat_annotations",
+                   legend = T, keep.scale = 'feature')
+p2 <- OrthoDotPlot(ifnb, features = c("CD4", "CD86", "CD96"),
+                   group.by.x = "stim", group.by.y = "seurat_annotations",
+                   legend = T, keep.scale = 'all')
 ```
 
 Plots below show p1 and p2 from code above:
