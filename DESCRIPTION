@@ -1,0 +1,23 @@
+Package: scPlotKit
+Title: little tools for scRNA visualization 
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Rong-ao", family = "Kou", email = "kourongao@westlake.edu.cn", role = c("aut", "cre"))
+Description: Provides some modified little tools for scRNA-seq data visualization based on Seurat functions.
+License: BSD-3-Clause-Clear +file LICENSE
+URL: https://github.com/Rong-ao/scPlotKit
+Encoding: UTF-8
+Depends: 
+    R (>= 4.0.0)
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    cowplot,
+    dplyr,
+    ggplot2,
+    grDevices,
+    patchwork,
+    RColorBrewer,
+    scattermore,
+    Seurat,
+    stats
