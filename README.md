@@ -3,7 +3,7 @@ This R package is the collection of some customized little tools for scRNA data 
 Functions here are mostly based on source code of Seurat v5, see https://github.com/satijalab/seurat
 More functions will come soon...
 
-Thanks for my dummy friend, Jiayi Song in Xiamen University, for his endless requirments of visualization in scRNA-seq data analysis pushing me develop this tiny package.
+Thanks for my dummy friend, Jiayi Song in Xiamen University, for his endless requirments of visualization in scRNA-seq data analysis pushing me develop this little package.
 
 ***2025.1.14: First submission of scPlotKit***
 
@@ -29,7 +29,7 @@ p2 <- OrthoDotPlot(ifnb, features = c("CD4", "CD86", "CD96"),
                    legend = T, keep.scale = 'all')
 ```
 
-Plots below show p1 and p2 from code above:
+Plots below show p1 and p2 from code above, which are scaled by each feature and all features, respectively:
 ![image](https://github.com/user-attachments/assets/dfd6163f-4c1d-40ce-85d4-77a64494c596) ![image](https://github.com/user-attachments/assets/34abc107-203b-4c4d-b173-a3fa0f9f9f2b)
 
 You can check more arguments of `OrthoDotPlot()` in R for more nice plots!
