@@ -35,4 +35,4 @@ Plots below show p1 and p2 from code above, which are scaled by each feature and
 
 You can check more arguments of `OrthoDotPlot()` in R for more nice plots!
 
-If any issue, please contact with kourongao@westlake.edu.cn
+If any issue, please submit it in `Issues` or contact with kourongao@westlake.edu.cn
