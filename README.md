@@ -3,7 +3,7 @@ This R package is the collection of some customized little tools for scRNA data 
 Functions here are mostly based on source code of Seurat v5, see https://github.com/satijalab/seurat
 More functions will come soon...
 
-Thanks for my dummy friend, Jiayi Song in Xiamen University, for his endless requirments of visualization in scRNA-seq data analysis pushing me developed this tiny package.
+Thanks for my dummy friend, Jiayi Song in Xiamen University, for his endless requirments of visualization in scRNA-seq data analysis pushing me develop this tiny package.
 
 ***2025.1.14: First submission of scPlotKit***
 
